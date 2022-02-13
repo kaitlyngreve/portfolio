@@ -1,0 +1,116 @@
+#navbar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: #f44336;
+  margin: 0px;
+  padding: 0 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  background-color: #f44336;
+  font-size: 18px;
+  font-family: "Sans Serif", serif;
+  padding: 10px;
+}
+
+.nav-bar a:hover {
+  display: block;
+  background-color: #f3f6f4;
+  color: #f44336;
+}
+
+.welcome-section {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f3f6f4;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h1 {
+  font-family: "Sans Serif", serif;
+  font-size: 100px;
+  text-shadow: 3px 3px 2px #f4cccc;
+}
+
+.about p {
+  font-family: "Sans Serif", serif;
+  font-size: 25px;
+  color: #395d62;
+}
+
+.line {
+  display: block;
+  background-color: #f44336;
+  height: 2px;
+  margin: 15px;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4cccc;
+  min-height: 10vh;
+  padding: 0;
+}
+
+.project-tile h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #395d62;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: black;
+  font-family: "Sans Serif", serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.project-tile a:hover {
+  display: block;
+  justify-content: center;
+  background-color: #f44336;
+  color: #f4cccc;
+  font-family: "Sans Serif", serif;
+}
+
+.contact {
+  background-color: #f3f6f4;
+  display: flex;
+  height: 7vh;
+}
+
+.contact h3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile-link {
+  text-decoration: none;
+  color: #395d62;
+}
+
+
+@media print {
+  body {
+    font-size: 20px;
+  }
+}
