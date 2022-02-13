@@ -1,86 +1,78 @@
-#navbar {
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  background-color: #f44336;
-  margin: 0px;
-  padding: 0 15px;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: white;
-  background-color: #f44336;
-  font-size: 18px;
-  font-family: "Sans Serif", serif;
-  padding: 10px;
-}
-
-.nav-bar a:hover {
-  display: block;
-  background-color: #f3f6f4;
-  color: #f44336;
-}
-
 .welcome-section {
   display: flex;
   width: 100%;
-  min-height: 75vh;
-  background-color: #f3f6f4;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 75px 25px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 45px;
+  margin-top: 0;
 }
 
 .about h1 {
-  font-family: "Sans Serif", serif;
-  font-size: 100px;
+  font-size: 64px;
+  line-height: 1em;
   text-shadow: 3px 3px 2px #f4cccc;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
 }
 
 .about p {
-  font-family: "Sans Serif", serif;
-  font-size: 25px;
-  color: #395d62;
+  font-size: 20px;
+  color: #1b3033;
+  display: flex;
+  justify-content: left;
+}
+
+.mini p {
+  font-size: 18px;
+  color: #1b3033;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
 }
 
 .line {
-  display: block;
+  display: flex;
+  justify-content: left;
   background-color: #f44336;
   height: 2px;
-  margin: 15px;
+  margin: 0;
 }
 
 .project-tile {
   display: flex;
   flex-direction: column;
-  background-color: #f4cccc;
-  min-height: 10vh;
-  padding: 10px;
-}
-
-.project-tile h2 {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  color: black;
+  background-color: #f3f6f4;
+  padding: 0;
 }
 
 .project-tile a {
   text-decoration: none;
-  color: black;
-  font-family: "Sans Serif", serif;
-  font-size: 20px;
-  padding: 10px;
+  color: #f44336;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: .5em;
+  font-weight: bold;
 }
 
 .project-tile a:hover {
@@ -88,19 +80,14 @@
   justify-content: center;
   background-color: #f44336;
   color: #f4cccc;
-  font-family: "Sans Serif", serif;
 }
 
-.contact {
-  background-color: #f3f6f4;
-  display: flex;
-  height: 7vh;
+.about a {
+  padding: 0;
 }
 
 .contact h3 {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #profile-link {
@@ -110,6 +97,8 @@
 
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f3f6f4;
 }
 
 
